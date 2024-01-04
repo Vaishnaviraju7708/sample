@@ -1,18 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Five from './Five';
+import Link1 from './Link1';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import { Dropdown } from 'bootstrap';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+      
+    
+    <BrowserRouter>
+          
+         
+            <Routes>
+                 <Route path='/'element={<Five/>}/>
+                 <Route path='link1'element={<Link1/>}/>
+            </Routes>
+
+
+    </BrowserRouter>
+    
       </div>
     );
   }
