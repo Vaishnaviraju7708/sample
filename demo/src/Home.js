@@ -9,7 +9,7 @@ import { IoBagOutline } from "react-icons/io5";
 import './Home.css'
 
 
-function Home() {
+function Home () {
   return (
     <div>
  
