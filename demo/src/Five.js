@@ -72,7 +72,7 @@ function Five() {
            </Col>
          </Row>
         </Container>
-     
+{/*      
          {data.map((item) => (
         
           <Four
@@ -87,7 +87,8 @@ function Five() {
              id1={item.id1}
           />
           
-         ))}  
+         ))}   */}
+         <Four/>
 
     </div>
   )
