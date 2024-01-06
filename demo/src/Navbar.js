@@ -6,7 +6,7 @@ import { IoIosSearch } from "react-icons/io";
 import InputGroup from 'react-bootstrap/InputGroup';
 import { CiUser } from "react-icons/ci";
 import { IoBagOutline } from "react-icons/io5";
-import './Home.css'
+import './Navbar'
 
 
 function Home () {

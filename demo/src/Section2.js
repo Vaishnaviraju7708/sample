@@ -1,17 +1,21 @@
 import React from 'react'
-import './Four.css';
 import Strawberry from '../src/Image/strawberry.png'
 import Freshline from '../src/Image/lime.png'
 import Minipapers from '../src/Image/MiniPeppers.png'
 import { IoMdEye } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa6";
+import Col from 'react-bootstrap/esm/Col';
+import './Section2'
 
 function Four() {
   return (
           <div>
-                    <div className='full' >
-                         <div>
-                            <div className='pt-2'>
+  <div className="demo">
+  <div className="carousel ms-auto" data-flickity='{ "groupCells": true }'>
+    <div className="carousel-cell">
+        <Col>
+        <div className='full' >
+                    <div className='pt-2'>
                               <div className='box mx-2  bg-danger'>7% off</div>
                                  <div className='ms-auto'>
                                     <div className='hove'><IoMdEye className='eye '/></div><div className='hove'><FaRegHeart className='eye ' /></div>  </div>
@@ -31,8 +35,26 @@ function Four() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>          
+        </Col>
+    </div>
+    <div className="carousel-cell">
+    <Col>dfsaf</Col>
+    </div>
+    <div className="carousel-cell">
+    <Col>dfsaf</Col>
+    </div>
+    <div className="carousel-cell">
+    <Col>dfsaf</Col>
+    </div>
+    <div className="carousel-cell">
+    <Col>dfsaf</Col>
+    </div>
+    <div className="carousel-cell">
+         <Col>dfsaf</Col>
+    </div>
+  </div>
+  </div>
+ </div>          
   )
 }
 

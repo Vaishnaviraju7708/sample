@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 import { LuMilk } from "react-icons/lu";
 import { GiFrozenOrb } from "react-icons/gi";
 import { GiPopcorn } from "react-icons/gi";
-import Contact from './Contact.js'
-import Home from './Home';
-import About from './About.js';
-import Four from './Four.js';
+import Contact from './Section1.js'
+import Home from './Navbar.js';
+import About from './Homepage.js';
+import Four from './Section2.js';
 import './Five.css'
 import { GiHoneyJar } from "react-icons/gi";
 import { CiPillsBottle1 } from "react-icons/ci";

@@ -8,7 +8,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Right from './Image/right.png'
 import Left from './Image/left.png'
-import './About.css'
+import './Homepage'
  
 
 function About() {

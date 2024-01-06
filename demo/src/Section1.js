@@ -2,11 +2,11 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import './Contact.css'
 import Market from '../src/Image/market.png'
 import Deliver from '../src/Image/deliv.png'
 import Timer  from '../src/Image/timer.png'
 import Payment from '../src/Image/payment.png'
+import './Section1'
 
 function Contact() {
   return (

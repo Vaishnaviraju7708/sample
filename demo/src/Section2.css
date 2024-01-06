@@ -142,3 +142,34 @@ p{
  background-color: rgb(246, 249, 252);
  height: 450px;
 }
+
+
+* { box-sizing: border-box; }
+  
+body { font-family: sans-serif; }
+
+.carousel {
+  width:70%;
+  background-color: rgb(167, 223, 245);
+
+}
+
+.carousel-cell {
+  width: 28%;
+  height: 400px;
+  margin-right: 20px;
+  display: flex;
+  border-radius: 10px;
+  
+  
+}
+
+.carousel-cell.is-selected {
+  background: rgb(229, 147, 225);
+}
+.carousel-cell:before {
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
