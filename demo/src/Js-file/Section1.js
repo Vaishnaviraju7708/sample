@@ -2,13 +2,13 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Market from '../src/Image/market.png'
-import Deliver from '../src/Image/deliv.png'
-import Timer  from '../src/Image/timer.png'
-import Payment from '../src/Image/payment.png'
-import './Section1'
+import Market from '../Image/market.png'
+import Deliver from '../Image/delivery.png'
+import Timer  from '../Image/timer.png'
+import Payment from '../Image/payment.png'
+import '../Css-file/Section1.css'
 
-function Contact() {
+function Section1() {
   return (
 
 <div>
@@ -64,5 +64,5 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Section1;
 

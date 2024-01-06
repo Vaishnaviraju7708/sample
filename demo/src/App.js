@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Five from './Five';
-import Link1 from './Link1';
+import Link1 from './Js-file/Link1'
+import Section3 from './Js-file/Section3'
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import { Dropdown } from 'bootstrap';
 
 
 class App extends Component {
@@ -17,7 +16,7 @@ class App extends Component {
           
          
             <Routes>
-                 <Route path='/'element={<Five/>}/>
+                 <Route path='/'element={<Section3/>}/>
                  <Route path='link1'element={<Link1/>}/>
             </Routes>
 

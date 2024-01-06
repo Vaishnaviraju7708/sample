@@ -6,14 +6,13 @@ import { Link } from 'react-router-dom';
 import { LuMilk } from "react-icons/lu";
 import { GiFrozenOrb } from "react-icons/gi";
 import { GiPopcorn } from "react-icons/gi";
-import Contact from './Section1.js'
-import Home from './Navbar.js';
-import About from './Homepage.js';
-import Four from './Section2.js';
-import './Five.css'
 import { GiHoneyJar } from "react-icons/gi";
 import { CiPillsBottle1 } from "react-icons/ci";
-import Last from './Last.js';
+import Section1 from './Section1.js';
+import Homepage from './Homepage.js';
+import Navbar from './Navbar.js';
+import Section2 from './Section2.js';
+import '../Css-file/Section3.css'
 
 
 
@@ -21,16 +20,17 @@ import Last from './Last.js';
 
 
 
-function Five() {
+
+function Section3() {
 
   let data=[{percentage:"7% off",head:"Fresh Line",us:"US$135.78", id:"US$7.00",
             percentage1:"6% off", head1:"Fresh Strawberry",us1:"US$98.70",id1:"US$6.00"}]
   return (
     
     <div>
-        <Home/>
-          <About/>
-          <Contact/>
+          <Navbar/>
+         <Homepage/>
+          <Section1/>
    
         <Container fluid className='navbar first-section ' lg={12} md={6}>
             <Row className='mx-auto'>
@@ -88,10 +88,10 @@ function Five() {
           />
           
          ))}   */}
-         <Four/>
+         <Section2/>
 
     </div>
   )
 }
 
-export default Five
+export default Section3;

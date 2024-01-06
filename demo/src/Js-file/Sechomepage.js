@@ -2,13 +2,13 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Logo from './Image/logo.svg'
+import Logo from '../Image/logo.svg'
 import Form from 'react-bootstrap/Form';
 import { CiUser } from "react-icons/ci";
 import { IoBagOutline } from "react-icons/io5";
 import { IoIosSearch } from "react-icons/io";
 import InputGroup from 'react-bootstrap/InputGroup';
-import './Sechomepage.css'
+import '../Css-file/Sechomepage.css'
 
 function Sechomepage() {
   return (

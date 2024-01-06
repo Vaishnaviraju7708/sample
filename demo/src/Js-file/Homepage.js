@@ -6,12 +6,12 @@ import Col from 'react-bootstrap/Col';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Right from './Image/right.png'
-import Left from './Image/left.png'
-import './Homepage'
+import Right from '../Image/right.png'
+import Left from '../Image/left.png'
+import '../Css-file/Homepage.css'
  
 
-function About() {
+function Homepage() {
   return (
     <div>
     <Container fluid className='first-section' >
@@ -41,4 +41,4 @@ function About() {
   )
 }
 
-export default About
+export default Homepage

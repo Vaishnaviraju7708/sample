@@ -1,13 +1,13 @@
 import React from 'react'
-import Strawberry from '../src/Image/strawberry.png'
-import Freshline from '../src/Image/lime.png'
-import Minipapers from '../src/Image/MiniPeppers.png'
+import Strawberry from '../Image/strawberry.png'
+import Freshline from '../Image/lime.png'
+import Minipapers from '../Image/MiniPeppers.png'
 import { IoMdEye } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa6";
 import Col from 'react-bootstrap/esm/Col';
-import './Section2'
+import '../Css-file/Section1.css'
 
-function Four() {
+function Section2() {
   return (
           <div>
   <div className="demo">
@@ -58,4 +58,4 @@ function Four() {
   )
 }
 
-export default Four
+export default Section2

@@ -1,15 +1,15 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Logo from './Image/logo.svg'
+import Logo from '../Image/logo.svg'
 import { IoIosSearch } from "react-icons/io";
 import InputGroup from 'react-bootstrap/InputGroup';
 import { CiUser } from "react-icons/ci";
 import { IoBagOutline } from "react-icons/io5";
-import './Navbar'
+import '../Css-file/Navbar.css'
 
 
-function Home () {
+function Navbar() {
   return (
     <div>
  
@@ -40,4 +40,4 @@ function Home () {
   )
 }
 
-export default Home
+export default Navbar
