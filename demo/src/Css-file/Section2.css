@@ -1,4 +1,6 @@
-
+*{
+  margin: 0;
+}
 .bor-2{
     border-radius: 5px;
       width: 60%;

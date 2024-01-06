@@ -28,9 +28,9 @@ function Navbar() {
               <Button className='button1' variant="outline-secondary text-white">Search</Button>
           </InputGroup>
     </div>
-    <div class="col3 d-flex flex-row justify-content-end">
+    <div class="col3 d-flex flex-row ">
       <div class="second-icons d-none d-md-none d-lg-block mt-2  ">
-         <div><CiUser  className='user'/><IoBagOutline  className='bag ' /></div>
+         <div className='nav-icon'><CiUser  className='user'/><IoBagOutline  className='bag ' /></div>
       </div> 
     </div>
   </div>

@@ -63,9 +63,14 @@
       border-radius: 30px;
       background-color: rgb(202, 186, 186);
  }
+ .nav-icon{
+    background-color: rebeccapurple;
+ }
 
  .user{
+    margin: 0 auto;
     width: 47%;
+
     height: 45px;
     background-color: rgb(246, 249, 252);
     padding: 12px;
